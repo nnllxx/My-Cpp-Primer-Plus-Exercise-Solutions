@@ -9,7 +9,7 @@ t) tree             g) game
 	char ch;
 	cin >> ch;
 	while((ch!='c') and (ch!='p') and (ch!='t') and (ch!='g')){
-		cout << "Please enter a c, p, t or g: ";
+		cout << "Please enter c, p, t or g: ";
 		cin >> ch;
 	};
 	switch(ch){
