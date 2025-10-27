@@ -11,7 +11,7 @@ int main(){
 	cout << "&x2 = " << &x2 << endl;
 	
 	int y = 2;
-	pt = &y;   // 在被用于初始化的指针，指向了其他变量后
+	pt = &y;   // 在被用于初始化的指针 指向了其他变量后
 	cout << endl << "after pt=&y" << endl;
 	cout << "&y = " << &y << endl;
 	cout << "x2 = " << x2 << endl;
