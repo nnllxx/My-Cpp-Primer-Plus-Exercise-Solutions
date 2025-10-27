@@ -1,2 +1,2 @@
 # My-Cpp-Primer-Plus-Exercise-Solutions
-I'm learning from *C++ Primer Plus* (6th Edition) and storing my exercise solutions here.
+这里记录了我对于*C++ Primer Plus* (6th Edition)的编程习题解答。
