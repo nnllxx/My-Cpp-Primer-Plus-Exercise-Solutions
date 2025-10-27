@@ -15,7 +15,7 @@ a. display by name        b. display by title
 c. display by bopname     d. display by preference
 q. quit
 Enter your choice: )";
-	// Initialize an array of bop structures
+	// 为bop的数组赋值
 	bop ar[3] = {
 		{"AJiang", "software engineer", "id001", 1},
 		{"BJiang", "frontend developer", "id002", 2},
