@@ -20,4 +20,7 @@ int main(){
 // 翻译：[错误] 无法将类型为 'int&' 的非const左值引用绑定到类型为 'int' 的右值
 // 由于x, y的类型与a, b不匹配，所以需要创建临时变量来传递给函数
 // 不允许个临时值（右值）传递给非const的左值引用参数
-// 对于这个函数，如果定义中加上const再运行程序，则会报错：[Error] assignment of read-only reference 'a'
+
+// 对于这个函数，如果定义中加上const再运行程序
+// 则会报错：[Error] assignment of read-only reference 'a' 和 [Error] assignment of read-only reference 'b'
+// 因为函数中尝试对只读的a和b进行修改
