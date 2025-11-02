@@ -21,5 +21,6 @@ int main()
 	cout << "corp_name: " << pt->corp_name << endl
 		<< "diameter: " << pt->diameter << endl
 		<< "weight: " << pt->weight << endl;
+	delete pt;
 	return 0;
 }
