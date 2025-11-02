@@ -5,7 +5,6 @@ using namespace std;
 int main(){
     char word[20];
     int count = 0;
-    count = 0;
     cout << "Enter words (to stop, type the word done): ";
     do{
         cin >> word;
