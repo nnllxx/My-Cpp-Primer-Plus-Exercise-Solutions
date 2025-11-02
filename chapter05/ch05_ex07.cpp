@@ -26,6 +26,7 @@ int main()
 	for(int i=0;i<num;i++){
 		cout << pt[i].year << " " << pt[i].make << endl;
 	}
+	delete [] pt;
 	return 0;
 }
 
