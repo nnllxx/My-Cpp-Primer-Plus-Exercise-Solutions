@@ -7,7 +7,7 @@ int main(){
 	file.open("input.txt");   // 要读取的文件
 	int count = 0;
 	char ch;
-	while(file.get(ch))   // 必须用带参数的版本
+	while(file.get(ch))   // 必须用带参数的版本，而不能用file.get()
 		count += 1;
 	file.close();
 	cout << "This file contains " << count << " characters.";
