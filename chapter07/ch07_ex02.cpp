@@ -3,8 +3,8 @@ using namespace std;
 const int ArSize = 10;
 
 int input(double * const ar);   // 返回一个存储了数组长度，方便后续函数定义
-void show(const double * ar, const int size);
-double ave(const double * ar, const int size);
+void show(const double * ar, const int & size);
+double ave(const double * ar, const int & size);
 
 int main(){
 	double ar[ArSize] = {0};
@@ -24,14 +24,14 @@ int input(double * const ar){
 	return i;
 }
 
-void show(const double * ar, const int size){
+void show(const double * ar, const int & size){
 	cout << "Show: ";
 	for(int i=0;i<size;i++){
 		cout << ar[i] << " ";
 	}
 }
 
-double ave(const double * ar, const int size){
+double ave(const double * ar, const int & size){
 	double sum = 0;
 	for(int i=0;i<size;i++)
 		sum += ar[i];
