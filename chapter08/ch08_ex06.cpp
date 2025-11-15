@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cstring>
+#include <cstring>   // 为了使用 strlen()
 using namespace std;
 
 template <class T>
