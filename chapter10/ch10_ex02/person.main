@@ -1,0 +1,14 @@
+#include <iostream>
+#include "person.h"
+
+int main(){
+    Person one;
+    Person two("Smythecraft");
+    Person three("Dimwiddy", "Sam");
+    one.Show();
+    std::cout << endl;
+    two.FormalShow();
+    std::cout << endl;
+    three.Show();
+    return 0;
+}
