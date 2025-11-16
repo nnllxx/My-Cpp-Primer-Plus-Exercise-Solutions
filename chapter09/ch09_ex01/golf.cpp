@@ -13,6 +13,7 @@ int setgolf(golf & g){
     cin.getline(g.fullname, Len);
     cout << "Enter the handicap: ";
     cin >> g.handicap;
+    cin.get()
     if (strlen(g.fullname) == 0)
         return 0;
     else
